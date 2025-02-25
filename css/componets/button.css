@@ -1,0 +1,34 @@
+.button2{
+    background-color: #62C370;
+    display: inline-block;/*display inline-block para conseguir definir largura e altura*/
+    padding: 18px 20px;/*largura e altura*/
+    box-shadow:5px 5px 0px 0px #000;/*é utilizado para adicionar efeitos de sombra em volta de um elemento*/
+  margin-right: 0; /*tirar a margem da direita*/
+  cursor:pointer;
+  transition: transform 60ms linear;/*transition ela faz transmissão de valpres da propriedade*/
+  text-decoration: none;/*para adicionar decoração a um texto, como underline, overline, line-through ou blink*/
+  color: #fff;
+
+}
+.button2:hover{/*pseu do classe*/
+    
+    
+    transform: scale(1.08);/*Traforma o componete - scale aumenta o elemento no eixo y e x */
+}
+.button1{
+  color: #fff;
+    background-color: #000;
+    display: inline-block;/*display inline-block para conseguir definir largura e altura*/
+    padding: 18px 20px;/*largura e altura*/
+    box-shadow:5px 5px 0px 0px #000;/*é utilizado para adicionar efeitos de sombra em volta de um elemento*/
+  margin-right: 0; /*tirar a margem da direita*/
+  cursor:pointer;
+  transition: transform 60ms linear;/*transition ela faz transmissão de valpres da propriedade*/
+  text-decoration: none;/*para adicionar decoração a um texto, como underline, overline, line-through ou blink*/
+
+}
+.button1:hover{/*pseu do classe*/
+    
+    
+    transform: scale(1.08);/*Traforma o componete - scale aumenta o elemento no eixo y e x */
+}
