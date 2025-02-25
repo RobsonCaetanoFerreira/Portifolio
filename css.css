@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    font-family: "Fira Code";
+}
+header {
+    background-color: #62C370;
+    padding: 10px 20px;/*distancia de 10px */
+    border-bottom: 10px solid #000;/*borda de 10px solida bottom em baixo*/
+    display: flex;/*nesse caso aqui pra colocae o nav na linha da imagem*/
+    justify-content: space-between;
+}
+nav{
+    text-align: right;/*jogar o texto pra direita*/
+}
+a::before{/*pseu do elemento*/
+    content: "";/*para usar pseu no elemento preciso colocar content*/
+    background-color: #000;/*cor do dradinho*/
+    width: 10px;  /*tamanho*/  
+    height: 10px;/*altura*/
+    margin-right: 10px;/*margin 10px a direita*/
+}
+a { 
+    align-items: center; /*alinha os quadradinhos ao texto*/
+    display: inline-flex;
+    color:#FFF;/*cor*/
+    font-size: 20px; /*para definir o tamanho da fonte*/
+    font-weight: 500;/*especifica o peso ou a intensidade da fonte*/
+    font-style: normal;/*é usada para modificar o estilo da fonte*/
+    text-decoration: none;/*para adicionar decoração a um texto, como underline, overline, line-through ou blink*/
+    margin-right: 30px;/*margem de 30px para a direita*/
+
+}
+#button1{
+    background-color: #000;
+    display: inline-block;/*display inline-block para conseguir definir largura e altura*/
+    padding: 18px 20px;/*largura e altura*/
+    box-shadow:5px 5px 0px 0px #000;/*é utilizado para adicionar efeitos de sombra em volta de um elemento*/
+  margin-right: 0; /*tirar a margem da direita*/
+  cursor:pointer;
+  transition: transform 60ms linear;/*transition ela faz transmissão de valpres da propriedade*/
+
+}
+#button1:hover{/*pseu do classe*/
+    
+    
+    transform: scale(1.08);/*Traforma o componete - scale aumenta o elemento no eixo y e x */
+}
+
