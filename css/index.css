@@ -1,7 +1,4 @@
-*{
-    margin:0;
-    font-family: "Fira Code";
-}
+
 header {
     background-color: #62C370;
     padding: 10px 20px;/*distancia de 10px */
@@ -45,4 +42,8 @@ a {
     
     transform: scale(1.08);/*Traforma o componete - scale aumenta o elemento no eixo y e x */
 }
+
+
+
+
 
