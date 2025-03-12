@@ -1,5 +1,17 @@
-.banner{
+.banner {
     height: 800px;
-    background-image:url(/assets/img/photo.png);
+    background-image: url(/assets/img/photo.png);
     border-bottom: 10px solid #000;
 }
+
+.banner2 {
+    font-family: "Press Start 2P", serif;
+    background-color: #62C370;
+
+    height: 730px;
+    border-bottom: 10px solid #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+

@@ -1,5 +1,6 @@
 
 .header {
+    font-family: "Fira Code";
     background-color: #62C370;
     padding: 10px 20px;/*distancia de 10px */
     border-bottom: 10px solid #000;/*borda de 10px solida bottom em baixo*/

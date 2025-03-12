@@ -1,64 +1,162 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="/css/componets/reset.css" />
+    <link rel="stylesheet" href="/css/componets/header.css" />
+    <link rel="stylesheet" href="/css/componets/action.css" />
+    <link rel="stylesheet" href="/css/componets/button.css" />
+    <link rel="stylesheet" href="/css/componets/main-title.css" />
+    <link rel="stylesheet" href="/css/componets/subtitle.css" />
+    <link rel="stylesheet" href="/css/componets/box.css" />
+    <link rel="stylesheet" href="/css/componets/banner.css" />
+    <link rel="stylesheet" href="/css/componets/skill-tec.css   " />
+    <link rel="stylesheet" href="/css/componets/progress-bar.css" />
+    <link rel="stylesheet" href="./css/componets/wrapper-skill.css">
+    <title>Robson Caetano</title>
+  </head>
 
-    <link rel="stylesheet" href="/css/componets/reset.css">
-    <link rel="stylesheet" href="/css/componets/header.css">
-    <link rel="stylesheet" href="/css/componets/action.css">
-    <link rel="stylesheet" href="/css/componets/button.css">
-    <link rel="stylesheet" href="/css/componets/title.css">
-    <link rel="stylesheet" href="/css/componets/subtitle.css">
-    <link rel="stylesheet" href="/css/componets/box.css">
-    <link rel="stylesheet" href="/css/componets/banner.css">
-    <title> Robson Caetano </title>
-</head>
+  <body>
 
-<body>
-    <header class="header"><!--cabeçalho-->
+    <header class="header">
+      <!--cabeçalho-->
 
-        <img src="./assets/img/Property 1=Variant2.png" alt="">
+      <img src="./assets/img/Property 1=Variant2.png" alt="" />
 
-        <nav><!--navigation-navegação do site-tag ulitizada pra guardar os links de navegação-->
+      <nav>
+        <!--navigation-navegação do site-tag ulitizada pra guardar os links de navegação-->
 
-            <a class="action" href="">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-
-            <a class="button1" href="">Download CV</a>
-
-        </nav>
-
+        <a class="action" href="">Skills</a>
+        <a class="action" href="">Projetos</a>
+        <a class="action" href="">Sobre</a>
+        <a class="action" href="">Contatos</a>
+        <a class="button1" href="">Download CV</a>
+      </nav>
 
     </header>
 
     <section class="banner">
 
-        <div class="box">
+      <div class="box">
 
-            <h1 class="title">Robson Caetano</h1>
-            <h2 class="subtitle">FrontEnd Developer </h2>
+        <h1 class="main-title">Robson Caetano</h1>
+        <h2 class="subtitle">FrontEnd Developer</h2>
 
-        </div>
+      </div>
 
-        <div class="conteiner-box">
+      <div class="conteiner-box">
 
-            <a class="button2" href="">Download CV</a>
-            <a class="button2" href="">Download CV</a>
+        <a class="button2" href="">Download CV</a>
+        <a class="button2" href="">Download CV</a>
 
-        </div>
+      </div>
 
     </section>
 
+    <section class="banner2">
 
-</body>
+      <h3 class="main-title -second">Skills</h3>
+
+      <div class="wrapper-skill">
+
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_html5.png" alt="Logo do HTML em pixel art" />
+
+        <div class="rigth">
+          <h3 class="title">HTML</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+
+      </article>
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_css3.png" alt="Logo do CSS em pixel art" />
+
+        <div class="rigth">
+          <h3 class="title">CSS</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+
+      </article>  
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_js.png" alt="Logo do JavaScript em pixel art" />
+
+        <div class="rigth">
+          <h3 class="title">JavaScript</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+
+      </article>  
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_react.png" alt="Logo do React pixel art" />
+
+        <div class="rigth">
+          <h3 class="title">React</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+
+      </article>
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_nodejs.png" alt="Logo do NodeJS em pixel art" />
+  
+        <div class="rigth">
+          <h3 class="title">NodeJS</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+  
+      </article>
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_tdd.png" alt="Logo do TDD em pixel art" />
+  
+        <div class="rigth">
+          <h3 class="title">TDD</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+  
+      </article>
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_restapi.png" alt="Logo do Rest Api em pixel art" />
+  
+        <div class="rigth">
+          <h3 class="title">Rest Api</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+  
+      </article>
+      <article class="skill-tec">
+
+        <img class="icon" src="/assets/img/ico_ux.png" alt="Logo do UX   em pixel art" />
+  
+        <div class="rigth">
+          <h3 class="title">UX</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+  
+      </article>
+
+      </div>
+    
+      
+      
+      
+
+    </section>
+
+  </body>
 
 </html>

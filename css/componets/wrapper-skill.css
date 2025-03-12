@@ -1,0 +1,19 @@
+.wrapper-skill{
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-skill .slill-tec{
+    width: 480px;
+}
+
+.wrapper-skill .slill-tec :nth-child(even) {
+    margin-left: 100px;
+
+}
+
+.wrapper-skill .progress-bar{
+    width: 320px;
+}
