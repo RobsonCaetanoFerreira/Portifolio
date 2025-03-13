@@ -1,0 +1,28 @@
+.card-projet{
+    height: 280px;
+    width: 280px;
+    background-color: #7c5e99;
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+        align-items: center ;
+        box-shadow: 10px 10px 0px  #FFF;
+}
+
+.card-projet.-blue{
+    margin-right: 130px;
+    margin-left: 130px;
+    background-color: #4C5B84;
+}
+.logo.-img{
+    
+    width: 280px;
+}
+
+.wrapper-card{
+    display: flex;
+    justify-content: center;
+}
+.banner3.-main-title.-second{
+    margin-top: 50px;
+}
